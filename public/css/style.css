@@ -78,6 +78,10 @@
     border: 1px solid #e1e1e1;
     padding: 10px;
   }
+
+  .form-field input:focus {
+    outline-color: #2c62d4;
+  }
   
   .chat {
     display: flex;
