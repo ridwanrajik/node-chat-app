@@ -183,13 +183,16 @@
   
     .chat__sidebar {
       /* display: none; */
-      width: 2000px;
+      width: 100%;
     }
 
-    /* .chat__main {
-      overflow-y: scroll;
-      width: 100%;
-    } */
+    .chat__sidebar ol {
+      list-style-type: none;
+    }
+
+    .chat__main {
+      width: 260px;
+    }
   
     .chat__footer {
       flex-direction: column;
@@ -198,8 +201,13 @@
     .chat__footer form {
       margin-bottom: 10px;
     }
+
+    .chat__footer input {
+      width: 180px;
+    }
   
-    .chat__footer button {
+    .chat__footer form button {
       margin-right: 0px;
+      width: 60px;
     }
   }
